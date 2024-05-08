@@ -1,0 +1,43 @@
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center; 
+    padding: 1%; 
+    color: azure;
+    width: 98%;
+    background-color: transparent;
+    color: #FFF;
+    text-align: center;
+}
+.header__logo {
+    width: 150px; 
+    left: 0px;
+    text-align: left;
+    padding-right: 20%;
+    margin-left: 0%;
+    padding-left: 0%;
+} 
+  .header__menu {
+    display: flex; 
+    list-style-type: none;
+    gap: 15px; 
+    text-align: center;
+    font-family: "Roboto Condensed";
+  }
+  
+  .header__menu-item {
+    margin: 0; 
+  }
+  
+  .header__menu-item a {
+    text-decoration: none; 
+    color: white; 
+    font-weight: bold; 
+  }
+  
+  .header__menu-item a:hover {
+    color: white;
+    border-bottom: #6840E6 solid 2px; 
+    font-size: large;
+  }
