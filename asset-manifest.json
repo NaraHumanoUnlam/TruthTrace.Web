@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.98da2bc4.css",
+    "main.js": "/react-gh-pages/static/js/main.ab7b7ee2.js",
+    "static/js/453.a5d3a7a7.chunk.js": "/react-gh-pages/static/js/453.a5d3a7a7.chunk.js",
+    "static/media/fondo-landing.png": "/react-gh-pages/static/media/fondo-landing.e83c32f3bcf627980b5f.png",
+    "index.html": "/react-gh-pages/index.html",
+    "main.98da2bc4.css.map": "/react-gh-pages/static/css/main.98da2bc4.css.map",
+    "main.ab7b7ee2.js.map": "/react-gh-pages/static/js/main.ab7b7ee2.js.map",
+    "453.a5d3a7a7.chunk.js.map": "/react-gh-pages/static/js/453.a5d3a7a7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.98da2bc4.css",
+    "static/js/main.ab7b7ee2.js"
+  ]
+}
