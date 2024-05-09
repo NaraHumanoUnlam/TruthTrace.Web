@@ -23,7 +23,9 @@
     list-style-type: none;
     gap: 15px; 
     text-align: center;
-    font-family: "Roboto Condensed";
+    font-family: 'Roboto Condensed';
+    font-weight: bold;
+    font-size: 2em;
   }
   
   .header__menu-item {
@@ -38,6 +40,5 @@
   
   .header__menu-item a:hover {
     color: white;
-    border-bottom: #6840E6 solid 2px; 
-    font-size: large;
+    border-bottom: #6840E6 solid 4px;
   }

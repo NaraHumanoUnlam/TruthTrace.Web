@@ -8,7 +8,7 @@ const Home = () => (
     <div className="main">
         <Header src={logo}/>
         <h1 className='slogan'>Seguridad en cada envío,<br/> confianza en cada entrega</h1>
-        <h2 className='slogan2'>Descubre la diferencia con blockchain</h2>
+        <h2 className='slogan2'>Descubre la diferencia <br/> con blockchain</h2>
         <Principles/>
     </div>
 )

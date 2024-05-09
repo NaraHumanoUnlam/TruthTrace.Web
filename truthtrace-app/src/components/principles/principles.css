@@ -13,9 +13,9 @@
   
   .label .titulo-falopa {
     color: #ffffff;
-    font-family: "Roboto Condensed-Light", Helvetica;
-    font-size: 48px;
-    font-weight: 400;
+    font-family: "Roboto Condensed", Helvetica;
+    font-size: 3em;
+    font-weight: light;
     height: 74px;
     left: 0;
     letter-spacing: 0;
@@ -30,13 +30,13 @@
   }
   
   .label .span {
-    font-family: "Roboto Condensed-Bold", Helvetica;
+    font-family: "Roboto Condensed", Helvetica;
     font-weight: 700;
   }
 
   .label .falopa {
     color: #ffffff;
-    font-family: "Roboto-Light", Helvetica;
+    font-family: "Roboto", Helvetica;
     font-size: 24px;
     font-weight: 400;
     height: 84px;
