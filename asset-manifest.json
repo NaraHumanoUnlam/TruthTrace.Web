@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/TruthTrace.Web/static/css/main.4956ac4b.css",
-    "main.js": "/TruthTrace.Web/static/js/main.8ad5b107.js",
+    "main.css": "/TruthTrace.Web/static/css/main.6326fe4c.css",
+    "main.js": "/TruthTrace.Web/static/js/main.011c2ef2.js",
     "static/js/453.a5d3a7a7.chunk.js": "/TruthTrace.Web/static/js/453.a5d3a7a7.chunk.js",
-    "static/media/fondo-landing.png": "/TruthTrace.Web/static/media/fondo-landing.e83c32f3bcf627980b5f.png",
+    "static/media/fondo_landing_opaco.png": "/TruthTrace.Web/static/media/fondo_landing_opaco.d44e1b06ffe8ce3ff16f.png",
     "index.html": "/TruthTrace.Web/index.html",
-    "main.4956ac4b.css.map": "/TruthTrace.Web/static/css/main.4956ac4b.css.map",
-    "main.8ad5b107.js.map": "/TruthTrace.Web/static/js/main.8ad5b107.js.map",
+    "main.6326fe4c.css.map": "/TruthTrace.Web/static/css/main.6326fe4c.css.map",
+    "main.011c2ef2.js.map": "/TruthTrace.Web/static/js/main.011c2ef2.js.map",
     "453.a5d3a7a7.chunk.js.map": "/TruthTrace.Web/static/js/453.a5d3a7a7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4956ac4b.css",
-    "static/js/main.8ad5b107.js"
+    "static/css/main.6326fe4c.css",
+    "static/js/main.011c2ef2.js"
   ]
 }
