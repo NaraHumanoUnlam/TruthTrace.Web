@@ -5,6 +5,30 @@
   background: linear-gradient(180deg, #414EE5 0%, #6841E6 100%);
 }
 
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: bold;
+  src: url('./assets/fonts/Roboto_Condensed/RobotoCondensed-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: medium;
+  src: url('./assets/fonts/Roboto_Condensed/RobotoCondensed-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: medium;
+  src: url('./assets/fonts/Roboto/Roboto-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: light;
+  src: url('./assets/fonts/Roboto/Roboto-Light.ttf') format('truetype');
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
