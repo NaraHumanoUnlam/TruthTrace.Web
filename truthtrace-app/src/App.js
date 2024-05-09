@@ -1,12 +1,11 @@
 import './App.css';
-import Header from './components/header/header.tsx';
 import Footer from './components/footer/footer.tsx';
-import logo from './assets/images/logo.png'; 
+import Home from './components/home/home.tsx';
 
 function App() {
   return (
     <div className="App">
-      <Header src={logo}/>
+      <Home />
       <Footer />
     </div>
   );

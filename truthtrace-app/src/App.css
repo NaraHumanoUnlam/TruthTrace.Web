@@ -1,10 +1,8 @@
 .App {
   text-align: left;
   width: 100%;
-  height: auto;
-  background-image: url('../src/assets/images/fondo-landing.png');
-  background-repeat: no-repeat;
-  background-size: cover;
+  height: 100vh;
+  background: linear-gradient(180deg, #414EE5 0%, #6841E6 100%);
 }
 
 @keyframes App-logo-spin {
