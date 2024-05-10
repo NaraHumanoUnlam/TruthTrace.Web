@@ -2,7 +2,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: linear-gradient(180deg, #414EE5 0%, #6841E6 100%);
     color: azure;
     height: 900px;
 }
