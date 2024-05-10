@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/TruthTrace.Web/static/css/main.3f343a73.css",
-    "main.js": "/TruthTrace.Web/static/js/main.176c652a.js",
+    "main.css": "/TruthTrace.Web/static/css/main.ca0d1c70.css",
+    "main.js": "/TruthTrace.Web/static/js/main.d8e68d75.js",
     "static/js/453.a5d3a7a7.chunk.js": "/TruthTrace.Web/static/js/453.a5d3a7a7.chunk.js",
     "static/media/fondo-landing.png": "/TruthTrace.Web/static/media/fondo-landing.e83c32f3bcf627980b5f.png",
     "index.html": "/TruthTrace.Web/index.html",
-    "main.3f343a73.css.map": "/TruthTrace.Web/static/css/main.3f343a73.css.map",
-    "main.176c652a.js.map": "/TruthTrace.Web/static/js/main.176c652a.js.map",
+    "main.ca0d1c70.css.map": "/TruthTrace.Web/static/css/main.ca0d1c70.css.map",
+    "main.d8e68d75.js.map": "/TruthTrace.Web/static/js/main.d8e68d75.js.map",
     "453.a5d3a7a7.chunk.js.map": "/TruthTrace.Web/static/js/453.a5d3a7a7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3f343a73.css",
-    "static/js/main.176c652a.js"
+    "static/css/main.ca0d1c70.css",
+    "static/js/main.d8e68d75.js"
   ]
 }
