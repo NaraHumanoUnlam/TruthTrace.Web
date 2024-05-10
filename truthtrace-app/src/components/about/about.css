@@ -4,14 +4,26 @@
     margin: auto;
 }
 
-.box{
+.box {
     height: 208px;
     width: 80%;
     margin: auto;
+    text-align: center;
+    margin-top: 10px;
 }
 
-.titulo {
-    color: white;
-    font-size: 2em;
-    margin: auto;
+.box .text-wrapper {
+    color: #ffffff;
+    font-family: "Roboto Condensed-Light", Helvetica;
+    font-size: 40px;
+    font-weight: 300;
+    left: 197px;
+    letter-spacing: 0;
+    line-height: normal;
+    top: 0;
+    white-space: nowrap;
+}
+.img-portada {
+    width: 30%;
+    height: auto;
 }
