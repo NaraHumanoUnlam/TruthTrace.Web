@@ -11,7 +11,6 @@ import Login from "./routes/login_validar_rol";
 import Login_Empresa from "./routes/login_emp";
 import Login_Transportista from "./routes/login_trans";
 
-
 const router = createBrowserRouter([
   {
     path: "/",
