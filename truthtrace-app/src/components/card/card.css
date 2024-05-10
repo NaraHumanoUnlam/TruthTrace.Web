@@ -1,0 +1,13 @@
+.card {
+    height: 265px;
+    width: 292px;
+  }
+  
+  .card .card-acc {
+    height: 279px;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 300px;
+  }
+  
