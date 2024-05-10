@@ -21,3 +21,11 @@
     font-weight: 400;
     text-align: center;
 }
+
+.cards-home{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    justify-items: center;
+    align-items: center;
+}
