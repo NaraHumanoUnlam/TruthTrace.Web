@@ -1,18 +1,24 @@
 import React from 'react';
 import './principles.css';
+import Card from '../card/card';
+import { BsGlobe } from 'react-icons/bs';
+import { IoIosPeople } from "react-icons/io";
+import { PiShieldCheckFill } from "react-icons/pi";
+
 const Principles = () => (
-    <div className="principles" id='principios'>
+    <div className="principles" id='valores'>
         <div className="label">
-            <p className="titulo-falopa">
-                <span className="text-wrapper">Nos preocupamos por tu </span>
-                <span className="span">seguridad</span>
-                <p className="text-wrapper">En TruthTrace nos dedicamos a proporcionar soluciones que brinden </p>
-                <p className="span">transparencia, seguridad </p>
-                <p>y </p> <p className="span">accesibilidad </p>
-                <p className="text-wrapper">
-                en tus envíos.</p>
-            </p>
+                <h1>Nos preocupamos por tu seguridad</h1>
+                <h2>En TruthTrace nos dedicamos a proporcionar soluciones que brinden 
+                transparencia, seguridad 
+                y  accesibilidad
+                en tus envíos.</h2>
         </div>
+       <div className="cards-home">
+            <Card icon={BsGlobe} title="Transparencia" text="Controla el ciclo de vida de tu producto en tu empresa o a lo largo de toda la cadena." />
+            <Card icon={IoIosPeople} title="Accesibilidad" text="Nuestra plataforma está diseñada para ser accesible para empresas de todos los tamaños." />
+            <Card icon={PiShieldCheckFill} title="Seguridad" text="Controla tu carga en cada viaje y revisa su progreso para una logística sin sorpresas." />
+       </div>
     </div>
 )
 
