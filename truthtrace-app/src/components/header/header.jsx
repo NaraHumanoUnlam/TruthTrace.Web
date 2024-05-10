@@ -10,9 +10,10 @@ const Header = ({ src }) => (
                 <li className="header__menu-item"><Link to={`#home`}>Home</Link></li>
                 <li className="header__menu-item"><Link to={`#about`}>Sobre nosotros</Link></li>
                 <li className="header__menu-item"><Link to={`#contact`}>Contacto</Link></li>
+                <li className="header__menu-item"><Link to="/Login">Login</Link></li>
             </ul>
         </nav>
     </header>
-)
+);
 
 export default Header;

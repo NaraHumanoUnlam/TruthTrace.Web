@@ -7,17 +7,35 @@ import {
 import "./index.css";
 import App from "./App";
 import About from "./components/about/about";
+import Login from "./routes/login_validar_rol";
+import Login_Empresa from "./routes/login_emp";
+import Login_Transportista from "./routes/login_trans";
+
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App/>,
-  },{
+    element: <App />,
+  },
+  {
     path: "/about",
-    element: <About/>,
-  },{
+    element: <About />,
+  },
+  {
     path: "/contact",
-    element: <App/>,
+    element: <App />,
+  },
+  {
+    path: "/login",
+    element: <Login />
+  },
+  {
+    path: "/login/empresa",
+    element: <Login_Empresa />
+  },
+  {
+    path: "/login/transportista",
+    element: <Login_Transportista />
   }
 ]);
 
