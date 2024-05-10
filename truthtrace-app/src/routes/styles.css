@@ -9,9 +9,9 @@
 .slogan {
     font-size: 120px;
     color: white;
-    font-family: 'roboto';
-    font-weight: bold;
+    font-family: "Roboto Condensed", sans-serif;
     text-align: center;
+    font-weight: 700;
 }
 
 .slogan2 {
