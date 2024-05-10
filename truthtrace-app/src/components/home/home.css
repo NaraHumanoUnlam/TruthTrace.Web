@@ -1,17 +1,31 @@
 .main {
     width: 100%;
     height: 900px;
-    background-image: url('../../assets/images/fondo-landing.png');
+    background-image: url('../../assets/images/fondo_landing_opaco.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.slogan {
+.slogan {/*
     font-size: 120px;
     color: white;
-    font-family: 'roboto';
+    font-family: 'Roboto Condensed', Helvetica;
     font-weight: bold;
+    font-weight: 900;
+    text-align: center;*/
+
+    color: #ffffff;
+    font-family: "Roboto Condensed", Helvetica;
+    font-size: 64px;
+    font-weight: 700;
+    height: 150px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: fixed;
     text-align: center;
+    top: 0;
+    width: 683px;
 }
 
 .slogan2 {
