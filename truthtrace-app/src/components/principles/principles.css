@@ -8,7 +8,6 @@
 }
 .label {
     height: 74px;
-    width: 800px;
   }
   
   .label .titulo-falopa {
@@ -22,7 +21,6 @@
     line-height: normal;
     text-align: center;
     top: 0;
-    width: 672px;
   }
   
   .label .text-wrapper {
