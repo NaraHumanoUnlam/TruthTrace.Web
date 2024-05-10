@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import src from '../assets/images/logo.svg';
 
 
-const Login = () => (
+const Validador = () => (
   <div className='validar'>
     <a href='#home' ><img src={src} alt="logo"  /></a>
     <h1>Bienvenido</h1>
@@ -13,4 +13,4 @@ const Login = () => (
   </div>
 );
 
-export default Login;
+export default Validador;
