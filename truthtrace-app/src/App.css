@@ -3,11 +3,7 @@ body, html {
   padding: 0;
   height: 100%;
   width: 100%;
-  overflow: hidden; 
-}
-#root {
-  width: 100%;
-  text-align: center;
+  overflow: auto; 
 }
 
 @keyframes logo-spin {
