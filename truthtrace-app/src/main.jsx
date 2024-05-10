@@ -7,9 +7,9 @@ import {
 import "./index.css";
 import App from "./App";
 import About from "./components/about/about";
-import Login from "./routes/login_validar_rol";
-import Login_Empresa from "./routes/login_emp";
-import Login_Transportista from "./routes/login_trans";
+import Validar from "./routes/validar_rol";
+import Login from "./login/login";
+import Register from "./components/register/register";
 
 const router = createBrowserRouter([
   {
@@ -26,17 +26,19 @@ const router = createBrowserRouter([
   },
   {
     path: "/login",
-    element: <Login />
+    element: <Validar />
   },
   {
     path: "/login/empresa",
-    element: <Login_Empresa />
+    element: <Login clase='empresa' />
   },
   {
     path: "/login/transportista",
-    element: <Login_Transportista />
-  }
-]);
+    element: <Login clase='usuario' />
+  },{
+    path: "/register",
+    element: <Register />
+  }, ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
