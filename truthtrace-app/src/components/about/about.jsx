@@ -8,7 +8,7 @@ const About = ({img}) => (
             <p className="text-wrapper">Una innovadora solución diseñada para combatir el fraude en los<br/>procesos logísticos. 
                 Incorporando tecnologías de vanguardia como<br/><span>blockchain</span> y <span>reconocimiento facial.</span></p>
         </div>
-        <img src={img} alt="Group-1" border="0" className="img-portada" />
+        
         <div className="box">
             <h2>¿Cómo funciona?</h2>
             <p className="text-wrapper">
