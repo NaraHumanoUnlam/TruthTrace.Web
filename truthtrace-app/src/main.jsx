@@ -8,7 +8,7 @@ import "./index.css";
 import App from "./App";
 import About from "./components/about/about";
 import Validar from "./routes/validar_rol";
-import Login from "./login/login";
+import Login from "./components/login/login";
 import Register from "./components/register/register";
 
 const router = createBrowserRouter([
