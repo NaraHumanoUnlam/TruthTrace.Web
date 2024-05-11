@@ -10,6 +10,7 @@ const Contact = () => (
             <a className="btn" href="#">
                 <div>Enviar</div>
             </a>
+            <br/>
         </div>
     </div>
 );
