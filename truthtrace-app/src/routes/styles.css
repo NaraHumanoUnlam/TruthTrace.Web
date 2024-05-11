@@ -8,29 +8,6 @@
     justify-content: center;
     margin: auto;
 }
-.main {
-    width: 100%;
-    height: 700px;
-    background-image: url('../assets/images/fondo_landing_opaco.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.slogan {
-    font-size: 120px;
-    color: white;
-    font-family: "Roboto Condensed", sans-serif;
-    text-align: center;
-    font-weight: 700;
-}
-
-.slogan2 {
-    font-size: 50px;
-    color: white;
-    font-family: 'roboto';
-    font-weight: 400;
-    text-align: center;
-}
 
 .button-empresa{
     background-color: #6840E6;
@@ -60,3 +37,9 @@
     margin-top: 20px;
 }
 
+.contact_div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}

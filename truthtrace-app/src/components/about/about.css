@@ -1,29 +1,51 @@
-.span {
-    color: white;
-    font-size: 1.5em;
-    margin: auto;
-}
-
 .box {
-    height: 208px;
     width: 80%;
     margin: auto;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 1em;
+}
+
+.box h1{
+    color: #ffffff;
+    font-family: 'Roboto Condensed';
+    font-style: light;
+    font-weight: 200;
+    font-size: 4em;
+}
+
+.box span{
+    font-weight: 500;
+}
+
+.text-wrapper span {
+    font-weight: 500;
 }
 
 .box .text-wrapper {
     color: #ffffff;
-    font-family: "Roboto Condensed-Light", Helvetica;
-    font-size: 40px;
+    font-family: "Roboto", Helvetica;
+    font-style: light;
+    font-size: 2em;
     font-weight: 300;
-    left: 197px;
     letter-spacing: 0;
     line-height: normal;
     top: 0;
     white-space: nowrap;
 }
+
 .img-portada {
+    margin: 1em;
+    margin-top: 2%;
+    margin-bottom: 2%;
     width: 30%;
     height: auto;
+}
+
+.box h2{
+    color: #ffffff;
+    font-family: 'Roboto Condensed';
+    font-style: light;
+    font-weight: 200;
+    font-size: 4em;
+    margin-bottom: -3%;
 }

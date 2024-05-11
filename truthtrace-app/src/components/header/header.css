@@ -1,20 +1,19 @@
 .menu {
     display: flex;
     flex-direction: row;
-    justify-content: center; 
+    justify-content: space-between;
     align-items: center; 
-    padding: 1%; 
-    color: azure;
+    padding: 1%;
     width: 98%;
     background-color: transparent;
     color: #FFF;
     text-align: center;
 }
+
 .header__logo {
     width: 150px; 
     left: 0px;
     text-align: left;
-    padding-right: 20%;
     margin-left: 0%;
     padding-left: 0%;
 } 
@@ -25,7 +24,7 @@
     text-align: center;
     font-family: 'Roboto Condensed';
     font-weight: bold;
-    font-size: 2em;
+    font-size: 1.5em;
   }
   
   .header__menu-item {
@@ -35,10 +34,12 @@
   .header__menu-item a {
     text-decoration: none; 
     color: white; 
-    font-weight: bold; 
+    font-weight: bold;
+    transition: 250ms ease-in-out;
   }
   
   .header__menu-item a:hover {
-    color: white;
+    font-size: 1.1em;
+    transition-timing-function: linear;
     border-bottom: #6840E6 solid 4px;
   }

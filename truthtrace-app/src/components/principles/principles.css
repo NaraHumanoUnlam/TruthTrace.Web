@@ -1,14 +1,22 @@
 .label h1{
-  font-family: "Roboto Condensed-Light", Helvetica;
-  font-size: 40px;
+  font-family: "Roboto Condensed", Helvetica;
+  font-style: light;
+  font-size: 4em;
   font-weight: 300;
   color: white;
   margin-bottom: 1rem;
 }
+
+.label span{
+  font-family: "Roboto Condensed", Helvetica;
+  font-style: medium;
+  font-weight: 500;
+}
+
 .label h2 {
-  font-family: "Roboto Condensed-Light", Helvetica;
-  font-size: 20px;
-  font-weight: 100;
+  font-family: "Roboto Condensed", Helvetica;
+  font-size: 2em;
+  font-weight: 300;
   color: white ;
 }
 .label {
@@ -16,7 +24,7 @@
 }
 .cards-home{
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 0.4fr);
   grid-auto-rows: minmax(100px, auto);
   justify-items: center;
   align-items: center;
