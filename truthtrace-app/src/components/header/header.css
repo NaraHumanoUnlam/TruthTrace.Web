@@ -5,26 +5,29 @@
     align-items: center; 
     padding: 1%;
     width: 98%;
-    background-color: transparent;
-    color: #FFF;
+    background: #ffffff;
     text-align: center;
+    height: 100px;
 }
 
 .header__logo {
-    width: 150px; 
     left: 0px;
     text-align: left;
     margin-left: 0%;
-    padding-left: 0%;
+    padding-left: 5%;
 } 
   .header__menu {
     display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     list-style-type: none;
     gap: 15px; 
     text-align: center;
     font-family: 'Roboto Condensed';
     font-weight: bold;
     font-size: 1.5em;
+    padding-right: 1%;
   }
   
   .header__menu-item {
@@ -33,7 +36,7 @@
   
   .header__menu-item a {
     text-decoration: none; 
-    color: white; 
+    color: #6840E6;
     font-weight: bold;
     transition: 250ms ease-in-out;
   }
@@ -42,4 +45,18 @@
     font-size: 1.1em;
     transition-timing-function: linear;
     border-bottom: #6840E6 solid 4px;
+  }
+
+  .button-actionheader {
+    background-color: #6840E6;
+    color:  white!important;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50px;
   }
