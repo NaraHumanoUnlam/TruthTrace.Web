@@ -7,10 +7,12 @@ import Contact from '../components/contact/contact.jsx';
 import Footer from '../components/footer/footer.jsx'
 import logo from '../assets/images/logo.png';
 import imagen from '../assets/images/logo.svg';
+import Header from '../components/header/header';
 
 
 const Home = () => (
-    <div>
+    <div className="home">        
+        <Header src={logo}/>
         <Hero />
         <Principles /> 
         <About img={imagen} />
