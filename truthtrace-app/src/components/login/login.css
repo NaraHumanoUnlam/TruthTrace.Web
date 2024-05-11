@@ -107,7 +107,7 @@
 }
 
 .empresa input {
-    border: #6840E6 solid 1px;
+    border: #6840E6 solid 2px;
     height: 30px;
     border-radius: 10px;
     padding: 10px;
@@ -157,4 +157,8 @@
 .empresa a {
     color: #6840E6;
     text-decoration: none;
+}
+
+.form_login input{
+    background-color: white;
 }
