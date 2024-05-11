@@ -1,7 +1,7 @@
 
 .empresa {
     background-color: #6840E6;
-    color: white;
+    color: #6840E6;
     font-weight: 200;
     border: none;
     border-radius: 5px;
@@ -9,6 +9,8 @@
     text-align: center;
     text-decoration: none;
     display: inline-block;
+    display: flex;
+    flex-direction: row;
     font-size: 16px;
     margin-top: 20px;
 }
@@ -69,7 +71,7 @@
 .usuario img {
     width: 100px;
     height: 100px;
-    border-radius: 50%;
+    color: black!important;
 }
 
 .usuario form {
@@ -102,4 +104,57 @@
 .desing {
     height: 100%;
     width: 50%;
+}
+
+.empresa input {
+    border: #6840E6 solid 1px;
+    height: 30px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.empresa input[type="submit"]{
+    background-color: #6840E6;
+    color: white;
+    font-weight: 200;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    height: 50px;
+}
+
+.empresa input[type="submit"]:hover{
+    background-color: #251164;
+    color: white;
+    font-weight: 200;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    box-shadow: #185d79;
+}
+
+.empresa img {
+    width: 100px;
+    height: 100px;
+}
+
+.empresa form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+}
+
+.empresa a {
+    color: #6840E6;
+    text-decoration: none;
 }
