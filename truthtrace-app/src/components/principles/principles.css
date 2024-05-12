@@ -21,6 +21,7 @@
 }
 .label {
   margin-top: 5rem;
+  color: #111111;
 }
 .cards-home{
   display: grid;
@@ -28,6 +29,7 @@
   grid-auto-rows: minmax(100px, auto);
   justify-items: center;
   align-items: center;
+  padding-top: 3em;
 }
 
 .principles {

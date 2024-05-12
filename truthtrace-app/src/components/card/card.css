@@ -11,6 +11,7 @@
              -35px -35px 70px #ffffff;
   text-align: center;
   transition: 250ms ease-in-out;
+  padding: 2em;
 }
 
 .card:hover{
@@ -23,9 +24,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: #000000;
+  color: #242424!important;
   text-align: center;
   vertical-align: middle;
+  
 }
 
 .card .text-wrapper {
