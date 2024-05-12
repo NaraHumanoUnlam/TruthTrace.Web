@@ -6,7 +6,6 @@
 }
 
 .box h1{
-    color: #ffffff;
     font-family: 'Roboto Condensed';
     font-style: light;
     font-weight: 200;
@@ -22,7 +21,6 @@
 }
 
 .box .text-wrapper {
-    color: #ffffff;
     font-family: "Roboto", Helvetica;
     font-style: light;
     font-size: 2em;
@@ -35,7 +33,6 @@
 
 
 .box h2{
-    color: #ffffff;
     font-family: 'Roboto Condensed';
     font-style: light;
     font-weight: 200;
