@@ -10,6 +10,7 @@ import About from "./components/about/about";
 import Validar from "./routes/validar_rol";
 import Login from "./components/login/login";
 import Register from "./components/register/register";
+import logo from './assets/images/logo.svg';
 
 const router = createBrowserRouter([
   {
@@ -26,7 +27,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/login",
-    element: <Validar />
+    element: <Validar src={logo}/>
   },
   {
     path: "/login/empresa",
