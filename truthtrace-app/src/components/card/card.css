@@ -7,8 +7,8 @@
   height: 15em;
   width: 16em;
   margin: 1em;
-  box-shadow:  35px 35px 70px #d9d9d9,
-             -35px -35px 70px #ffffff;
+  box-shadow:  15px 15px 30px #d7d6d6,
+              -15px -15px 30px #ffffff;
   text-align: center;
   transition: 250ms ease-in-out;
   padding: 2em;

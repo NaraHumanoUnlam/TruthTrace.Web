@@ -37,27 +37,34 @@
     width: 80%;
     height: auto;
 }
+
 .button-action {
+    display: inline-block; /* Convertimos en bloque para que ocupe todo el ancho disponible */
+    text-decoration: none; /* Quitamos la subrayado del enlace */
+}
+
+.button-action span {
     background-color: white;
-    color:  #6840E6;
+    color: #6840E6;
     text-align: center;
     font-size: 24px;
     border-radius: 50px;
     width: 250px;
     height: 50px;
-    padding: 10px 10px 0px 10px ;
+    padding: 10px;
     display: block;
-    
     box-shadow: 2px 2px 2px rgb(67, 67, 68);
-  }
+    transition: all 0.3s ease; /* Agregamos transición para todos los cambios */
+}
 
-  .button-action:hover {
+.button-action:hover span {
     background-color: #c3b8e7;
     color: white;
-    transition: 250ms ease-in-out;
-  }
+    transform: scale(1.1); /* Hacemos el botón un 10% más grande */
+    box-shadow: 4px 4px 4px rgb(67, 67, 68); /* Aumentamos un poco la sombra */
+}
 
-  .custom-shape-divider-bottom-1715466709 {
+.custom-shape-divider-bottom-1715466709 {
     position: relative;
     bottom: 0;
     left: 0;

@@ -8,7 +8,9 @@ const Hero = () => (
         <div className="main">
             <h1 className='slogan'>Seguridad en cada envío,<br /> confianza en cada entrega</h1>
             <h2 className='slogan2'>Descubre la diferencia con blockchain</h2>
-            <Link to="/Login" className='button-action'>Ingresar</Link>
+            <Link to="/Login" className='button-action'>
+                <span>Ingresar</span>
+            </Link>
         </div>
         <div className="img-portada">
             <img src={img} alt="Group-1" border="0" className="img-portada" />
