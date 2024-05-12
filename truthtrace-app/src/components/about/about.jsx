@@ -12,12 +12,13 @@ const About = () => (
                 <p className="text-wrapper">Una innovadora solución diseñada para combatir el fraude en los<br />procesos logísticos.
                     Incorporando tecnologías de vanguardia como<br /><span>blockchain</span> y <span>reconocimiento facial.</span></p>
             </div>
-            <div className="img">
-                <img src={imagen1} alt="group meeting" />
-            </div>
+           
+            <div className="img1"><img src={imagen2} alt="security" /></div>
         </div>
         <div className="background">
-            <div className="img"><img src={imagen2} alt="security" /></div>
+        <div className="img">
+                <img src={imagen1} alt="group meeting" />
+            </div>
             <div className="box">
                 <h1>¿Cómo funciona?</h1>
                 <p className="text-wrapper">
