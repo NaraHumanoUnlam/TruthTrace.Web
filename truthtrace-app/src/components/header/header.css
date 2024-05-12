@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'BankGothicBT-Medium';
+  src: url('../../assets/fonts/BankGothicBT-Medium/Bank\ Gothic\ Medium\ BT.ttf') format('truetype');
+}
+
+
 .menu {
     display: flex;
     flex-direction: row;
@@ -15,7 +21,24 @@
     text-align: left;
     margin-left: 0%;
     padding-left: 5%;
+    color: #6840E6;
+    font-size: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
 } 
+
+.header__logo img {
+    width: 250px;
+    height: auto;
+}
+
+.minor {
+    font-size: 0.8em;
+    color: #6840E6;
+}
   .header__menu {
     display: flex; 
     flex-direction: row;

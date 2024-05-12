@@ -18,14 +18,6 @@ const About = ({img}) => (
                 conductores y garantizar que solo ellos puedan acceder a la carga.
             </p>
         </div>
-        <div className="box">
-            <h2>Nuestras soluciones</h2>
-            <p className="text-wrapper">
-                Con nuestra plataforma, obtendrás acceso a una serie de<br/>
-                herramientas diseñadas para garantizar la seguridad de tus envíos,<br/>
-                asegurando tu carga de principio a fin.
-            </p>
-        </div>
     </div>
 )
 
