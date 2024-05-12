@@ -1,7 +1,7 @@
 import React from 'react';
 import empresaLogo from '../../assets/images/empresa/logo.svg';
 import usuarioLogo from '../../assets/images/usuario/logo.svg';
-import empresaImg from '../../assets/images/empresa/person-computer-purple.svg';
+import empresaImg from '../../assets/images/people_collection.svg';
 import './login.css';
 
 const Login = ({ clase }) => {
