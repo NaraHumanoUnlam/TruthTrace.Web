@@ -14,7 +14,7 @@ const Principles = () => (
         </div>
        <div className="cards-home">
             <Card icon={BsGlobe} title="Transparencia" text="Controla el ciclo de vida de tu producto en tu empresa o a lo largo de toda la cadena." />
-            <Card icon={IoIosPeople} title="Accesibilidad" text="Nuestra plataforma está diseñada para ser accesible para empresas de todos los tamaños." />
+            <Card icon={IoIosPeople} title="Accesibilidad" text="Nuestra plataforma está diseñada para ser accesible para todas las empresas." />
             <Card icon={PiShieldCheckFill} title="Seguridad" text="Controla tu carga en cada viaje y revisa su progreso para una logística sin sorpresas." />
        </div>
     </div>
