@@ -36,12 +36,14 @@
   src: url('./assets/fonts/Roboto/Roboto-Light.ttf') format('truetype');
 }
 
+
 body, html {
   margin: 0;
   padding: 0;
   height: 100%;
   width: 100%;
-  overflow: auto; 
+  overflow: auto;
+  box-sizing: content-box; 
 }
 
 @keyframes logo-spin {
@@ -59,9 +61,6 @@ body, html {
   }
 }
 
-.card {
-  padding: 2em;
-}
 
 .read-the-docs {
   color: #888;

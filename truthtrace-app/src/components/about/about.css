@@ -1,12 +1,10 @@
 .box {
-    width: 80%;
+    width: 100%;
     margin: auto;
     text-align: center;
-    margin-top: 1em;
 }
 
 .box h1{
-    color: #ffffff;
     font-family: 'Roboto Condensed';
     font-style: light;
     font-weight: 200;
@@ -22,7 +20,6 @@
 }
 
 .box .text-wrapper {
-    color: #ffffff;
     font-family: "Roboto", Helvetica;
     font-style: light;
     font-size: 2em;
@@ -34,11 +31,19 @@
 }
 
 
-.box h2{
-    color: #ffffff;
-    font-family: 'Roboto Condensed';
-    font-style: light;
-    font-weight: 200;
-    font-size: 4em;
-    margin-bottom: -3%;
+.background .img {
+    width: 50%;
+    height: auto;
+    margin-right: -10px;
+}
+.portada {
+    background-color: white;
+}
+
+.background {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+    padding: 5em;
 }

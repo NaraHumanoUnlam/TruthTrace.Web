@@ -5,7 +5,7 @@ import About from '../components/about/about.jsx';
 import Hero from '../components/hero/hero.jsx';
 import Contact from '../components/contact/contact.jsx';
 import Footer from '../components/footer/footer.jsx'
-import logo from '../assets/images/logo.png';
+import logo from '../assets/images/logo-horizontal.png';
 import imagen from '../assets/images/logo.svg';
 import Header from '../components/header/header';
 
@@ -16,9 +16,7 @@ const Home = () => (
         <Hero />
         <Principles /> 
         <About img={imagen} />
-        <div className="contact_div">
-            <Contact/>
-        </div>
+        <Contact/>
         <Footer src={logo} />
     </div>
 )
