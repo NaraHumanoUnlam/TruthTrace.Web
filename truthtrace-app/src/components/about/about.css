@@ -4,6 +4,8 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
+    position: relative;
+
   }
   
   .portada h1 {
@@ -40,3 +42,24 @@
     width:50%;
     margin: auto;
   }
+  
+.portada .custom-shape-divider-top-1715612101{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.portada .custom-shape-divider-top-1715612101 svg {
+    position: relative;
+    display: block;
+    width: calc(110% + 1.3px);
+    height: 76px;
+}
+
+.portada .custom-shape-divider-top-1715612101 .shape-fill {
+    fill: #FFFFFF;
+}
