@@ -4,15 +4,16 @@
   border-radius: 15px;
   background-color: #fdfcfc;
   border-radius: 15px;
-  height: 15em;
-  width: 25em;
-  margin: 1em;
+  height: 25em;
+  width: 30em;
   box-shadow:
   6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
   22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
   100px 100px 80px rgba(0, 0, 0, 0.07);
   text-align: center;
   transition: 250ms ease-in-out;
+  margin: auto;
+    margin-top: 5em;
 }
 
 .contact .interior {
@@ -49,10 +50,24 @@
 
 .interior input {
     border: #40B6E6 solid 2px;
-    height: 2em;
-    width: 60%;
     color: #000;
     background-color: #fff;
     border-radius: 15px;
     padding: 1em;
+    margin: 1em;
+}
+
+.interior #consulta {
+    border: #40B6E6 solid 2px;
+    height: 100px;
+    width: 60%;
+    color: #000;
+    background-color: #fff;
+    border-radius: 15px;
+    margin: 1em;
+}
+
+.interior #email {
+    width: 60%;
+    height: 30px;
 }
