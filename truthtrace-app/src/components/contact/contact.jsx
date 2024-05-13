@@ -5,7 +5,9 @@ const Contact = () => (
     <div className="contact">
         <div className="interior">
             <p className="text-wrapper">Dejanos tu consulta en el siguiente recuadro</p>
-            <input type="text" id="consulta" name="consulta" minlength="4" size="10" placeholder="Mensaje"/>
+            <input type="email" id="email" name="email" size="5" placeholder="Email de contacto"/>
+            <input type="text" id="consulta" name="consulta" size="10" placeholder="Mensaje"/>
+
             <br/>
             <a className="btn" href="#">
                 <div>Enviar</div>
