@@ -10,7 +10,7 @@ const Header = ({ src }) => (
                 <li className="header__menu-item"><a href='#home'>Home</a></li>
                 <li className="header__menu-item"><a href='#about'>Sobre nosotros</a></li>
                 <li className="header__menu-item"><a href='#valores'>Valores</a></li>
-                <li className="header__menu-item"><Link to="/Login" className='button-actionheader'>Ingresar</Link></li>
+                <li><Link to="/Login" className='button-actionheader'>Ingresar</Link></li>
             </ul>
         </nav>
     </header>
