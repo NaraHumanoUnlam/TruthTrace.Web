@@ -42,7 +42,7 @@
 .usuario input[type="submit"]{
     background-color: #40B6E6;
     color: white;
-    font-weight: 200;
+    font-weight: 600;
     border: none;
     border-radius: 5px;
     padding: 10px 20px;
@@ -57,7 +57,6 @@
 .usuario input[type="submit"]:hover{
     background-color: #185d79;
     color: white;
-    font-weight: 200;
     border: none;
     border-radius: 5px;
     padding: 10px 20px;
@@ -101,11 +100,6 @@
     width: 50%;
 }
 
-.desing {
-    height: 100%;
-    width: 50%;
-}
-
 .empresa input {
     border: #6840E6 solid 2px;
     height: 30px;
@@ -113,10 +107,22 @@
     padding: 10px;
 }
 
+.desing {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.desing img {
+    width: 500px;
+    height: 500px;
+}
+
 .empresa input[type="submit"]{
     background-color: #6840E6;
     color: white;
-    font-weight: 200;
+    font-weight: 600;
     border: none;
     border-radius: 5px;
     padding: 10px 20px;
@@ -131,7 +137,6 @@
 .empresa input[type="submit"]:hover{
     background-color: #251164;
     color: white;
-    font-weight: 200;
     border: none;
     border-radius: 5px;
     padding: 10px 20px;
@@ -140,11 +145,6 @@
     display: inline-block;
     font-size: 16px;
     box-shadow: #185d79;
-}
-
-.empresa img {
-    width: 100px;
-    height: 100px;
 }
 
 .empresa form {

@@ -8,9 +8,8 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center; 
-    padding: 1%;
-    width: 98%;
+    align-items: center;
+    width: 100%;
     background: #ffffff;
     text-align: center;
     height: 100px;
@@ -70,6 +69,11 @@
     border-bottom: #6840E6 solid 4px;
   }
 
+  .button-actionheader:hover {
+    font-size: 20px;
+    transition-timing-function: linear;
+  }
+
   .button-actionheader {
     background-color: #6840E6;
     color:  white!important;
@@ -82,4 +86,12 @@
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 50px;
+    transition: 250ms ease-in-out;
   }
+
+  /*
+  .header{
+    position: sticky;
+    top: 0; 
+    z-index: 1000;
+  }*/
