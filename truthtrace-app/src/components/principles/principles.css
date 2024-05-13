@@ -3,9 +3,9 @@
   font-style: light;
   font-size: 4em;
   font-weight: 300;
-  margin-bottom: 1rem;
   padding-top: 80px;
-  margin-top: -80px;
+  margin-bottom: 1rem;
+  margin-top: -1px;
 }
 
 .label span{
@@ -20,7 +20,6 @@
   font-weight: 300;
 }
 .label {
-  margin-top: 2rem;
   margin-bottom: 4rem;
   color: #111111;
 }
@@ -33,31 +32,11 @@
 }
 
 .principles {
-  margin-bottom: 5rem;
   background-color: white;
   color: #414EE5;
-  padding: 50px 10px 100px 10px;
   position: relative;
-}
-
-.custom-shape-divider-bottom-1715540864 {
-  position: absolute;
-  bottom: 0;
-  left: 0;
   width: 100%;
-  overflow: hidden;
-  line-height: 0;
-  transform: rotate(180deg);
+  height: 900px;
+  margin-bottom: 0px;
 }
 
-.custom-shape-divider-bottom-1715540864 svg {
-  position: relative;
-  display: block;
-  width: calc(100% + 1.3px);
-  height: 81px;
-  transform: rotateY(180deg);
-}
-
-.custom-shape-divider-bottom-1715540864 .shape-fill {
-  fill: #242424;
-}
