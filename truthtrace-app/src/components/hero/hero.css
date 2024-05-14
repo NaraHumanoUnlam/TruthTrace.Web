@@ -115,3 +115,48 @@
 .custom-shape-divider-bottom-1715466709 .shape-fill {
     fill: #FFFFFF;
 }
+
+@media (max-width: 768px) 
+{ 
+    .main 
+    { 
+        padding-left: 70px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero 
+    { 
+        flex-direction: column; 
+        height: 100%;
+        width: 100%;
+    }
+
+    .img-portada 
+    { 
+        width: 100%; 
+        margin: auto;
+        margin-bottom: 10px;
+    }
+
+    .button-action span 
+    { 
+        width: 100%; 
+    }
+
+    .slogan 
+    { 
+        width: 80%;
+        font-size: 1.6em; 
+    }
+
+    .slogan2 
+    { width: 80%;
+        font-size: 1em; 
+    }
+
+    .button-action {
+        margin-bottom: 15px;
+        width: 60%;
+    }
+}

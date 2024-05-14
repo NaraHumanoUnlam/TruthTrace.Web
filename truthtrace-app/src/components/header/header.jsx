@@ -1,29 +1,11 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import './header.css'; // Archivo de estilos para el encabezado
 
 const Header = ({ src }) => {
-    const [scrolled, setScrolled] = useState(false);
-    console.log("EL CSCROLLED ESTA ABAJo")
-    console.log(scrolled)
-
-    useEffect(() => {
-        const handleScroll = () => {
-            const isScrolled = window.scrollY > 0;
-            setScrolled(isScrolled);
-            console.log("esta scrolled??")
-            console.log(isScrolled)
-        };
-
-        window.addEventListener('scroll', handleScroll);
-
-        return () => {
-            window.removeEventListener('scroll', handleScroll);
-        };
-    }, []);
 
     return (
-        <header className={`header ${scrolled ? 'scrolled' : ''}`}>
+        <header className='header'>
             <nav className='menu'>
                 <a href='#home' className="header__logo"><img src={src} alt="logo"/></a>
                 <ul className="header__menu">
@@ -37,4 +19,4 @@ const Header = ({ src }) => {
     );
 };
 
-export default Header;
+export default React.memo(Header);
