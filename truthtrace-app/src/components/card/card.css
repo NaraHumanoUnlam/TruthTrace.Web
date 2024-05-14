@@ -48,7 +48,7 @@
   color: #ffffff;
   height: 3.5em;
   width: 3.5em;
-  background-color: #486cec;
+  background-color: #6840E6;
   border-radius: 15px;
   display: flex;
   flex-direction: column;
@@ -57,7 +57,7 @@
 }
 
 .card .rectangle {
-  background-color: #486cec;
+  background-color: #6840E6;
 }
 
 .custom-icon {
