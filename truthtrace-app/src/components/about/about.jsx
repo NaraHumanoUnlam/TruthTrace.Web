@@ -1,6 +1,6 @@
 import React from "react";
-import imagen1 from "../../assets/images/group_meeting.svg";
-import imagen2 from "../../assets/images/security_center.svg";
+import imagen1 from "../../assets/images/undraw_delivery_truck_vt6p.svg";
+import imagen2 from "../../assets/images/undraw_statistics_re_kox4.svg";
 import "./about.css";
 
 const About = () => (
@@ -17,11 +17,13 @@ const About = () => (
                     Incorporando tecnologías de vanguardia como<br /><span>blockchain</span> y <span>reconocimiento facial.</span></p>
             </div>
            
-            <div className="img1"><img src={imagen2} alt="security" /></div>
+            <div className="img">
+                <img src={imagen2} alt="security" />
+            </div>
         </div>
         <div className="background">
-        <div className="img">
-                <img src={imagen1} alt="group meeting" />
+            <div className="img">
+                <img src={imagen1} alt="group meeting"/>
             </div>
             <div className="box">
                 <h1>¿Cómo funciona?</h1>
