@@ -11,36 +11,47 @@ import Validar from "./routes/validar_rol";
 import Login from "./components/login/login";
 import Register from "./components/register/register";
 import logo from './assets/images/logo.svg';
-import ErrorPage from "./routes/errors/404";
+import Error404 from "./routes/errors/Error404";
 
 const router = createBrowserRouter([
   {
+    path: "/",
+    element: <App />,
+    errorElement: <Error404 />,
+  },{
     path: "/TruthTrace.Web",
     element: <App />,
-    errorElement: <ErrorPage />,
+    errorElement: <Error404 />,
   },
+  /**TruthTrace.Web */
   {
     path: "/about",
     element: <About />,
+    errorElement: <Error404 />,
   },
   {
     path: "/contact",
     element: <App />,
+    errorElement: <Error404 />,
   },
   {
     path: "/login",
-    element: <Validar src={logo}/>
+    element: <Validar src={logo}/>,
+    errorElement: <Error404 />,
   },
   {
     path: "/login/empresa",
-    element: <Login clase='empresa' />
+    element: <Login clase='empresa' />,
+    errorElement: <Error404 />,
   },
   {
     path: "/login/transportista",
-    element: <Login clase='usuario' />
+    element: <Login clase='usuario' />,
+    errorElement: <Error404 />,
   },{
     path: "/register",
-    element: <Register />
+    element: <Register />,
+    errorElement: <Error404 />,
   }, ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
