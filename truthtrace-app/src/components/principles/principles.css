@@ -35,6 +35,14 @@
   background-color: white;
   color: #414EE5;
   position: relative;
+  margin-top: -2px;
+  padding-bottom: 3em;
+}
+
+.custom-shape-divider-bottom-1715540864 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
   width: 100%;
   height: 900px;
   margin-bottom: 0px;

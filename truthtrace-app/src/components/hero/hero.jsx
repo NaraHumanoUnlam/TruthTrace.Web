@@ -1,5 +1,5 @@
 import React from 'react';
-import img from '../../assets/images/portada-about.svg';
+import img from '../../assets/images/undraw_team_collaboration_re_ow29.svg';
 import { Link } from "react-router-dom";
 import './hero.css';
 
@@ -13,7 +13,7 @@ const Hero = () => (
             </Link>
         </div>
         <div className="img-portada">
-            <img src={img} alt="Group-1" border="0" className="img-portada" />
+            <img src={img} alt="Group-1" border="0" />
         </div>
         <div class="custom-shape-divider-bottom-1715466709">
             <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">

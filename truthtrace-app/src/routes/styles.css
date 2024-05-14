@@ -127,3 +127,9 @@
     height: 100%;
     background: #40B6E6;
   }
+
+  img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
