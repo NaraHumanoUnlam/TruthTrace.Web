@@ -12,11 +12,14 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-html{
-  text-align: left;
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
   width: 100%;
-  height: 100vh;
-  background: white;
+  overflow: auto;
+  box-sizing: content-box; 
 }
 
 a {

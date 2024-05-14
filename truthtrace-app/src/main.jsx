@@ -11,11 +11,13 @@ import Validar from "./routes/validar_rol";
 import Login from "./components/login/login";
 import Register from "./components/register/register";
 import logo from './assets/images/logo.svg';
+import ErrorPage from "./routes/errors/404";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/TruthTrace.Web",
     element: <App />,
+    errorElement: <ErrorPage />,
   },
   {
     path: "/about",
