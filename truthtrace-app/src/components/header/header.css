@@ -3,7 +3,6 @@
   src: url('../../assets/fonts/BankGothicBT-Medium/Bank\ Gothic\ Medium\ BT.ttf') format('truetype');
 }
 
-
 .menu {
     display: flex;
     flex-direction: row;
@@ -89,9 +88,14 @@
     transition: 250ms ease-in-out;
   }
 
-  .header{
+  .header {
     position: sticky;
-    top: 0; 
+    top: 0;
     z-index: 1000;
+    background: #ffffff;
     border-bottom: #6840E6 3px solid;
-  }
+}
+
+.header.scrolled {
+    background-color: #6840E6; /* Cambia el color de fondo al hacer sticky */
+}
