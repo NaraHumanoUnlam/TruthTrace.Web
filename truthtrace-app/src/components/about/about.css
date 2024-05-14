@@ -33,13 +33,7 @@
     width: 40%;
     margin: auto;
   }
-
-  .img img{
-    max-width: 100%;
-    height: auto;
-    display: block;
-  }
-
+  
   .img {
     width: 550px;
     height: 250px;
