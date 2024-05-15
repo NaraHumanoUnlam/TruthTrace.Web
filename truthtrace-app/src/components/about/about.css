@@ -20,6 +20,7 @@
     align-items: center;
   }
   
+  
   .background h1 {
     text-align: left;
     font-family: 'Roboto Condensed';
@@ -57,4 +58,23 @@
 
 .portada .custom-shape-divider-top-1715612101 .shape-fill {
     fill: #FFFFFF;
+}
+
+.text-about {
+  font-family: "Roboto", Helvetica;
+  font-size: 1.4em;
+  font-style: light;
+  font-weight: 300;
+}
+
+@media screen and (max-width: 950px) {
+  .background {
+    display: flex;
+    flex-direction: column;
+    flex-direction: column-reverse;
+  }
+
+  .box{
+    text-align: center;
+  }
 }

@@ -23,6 +23,7 @@
   margin-bottom: 4rem;
   color: #111111;
 }
+
 .cards-home{
   display: grid;
   grid-template-columns: repeat(3, 0.4fr);
@@ -48,3 +49,9 @@
   margin-bottom: 0px;
 }
 
+
+@media screen and (max-width: 1060px) {
+  .cards-home {
+    grid-template-columns: 1fr;
+  }
+}
