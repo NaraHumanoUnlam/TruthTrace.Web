@@ -13,7 +13,7 @@ const About = () => (
         <div className="background">
             <div className="box">
                 <h1>¿Qué es <span>TruthTrace</span>?</h1>
-                <p className="text-wrapper">Una innovadora solución diseñada para combatir el fraude en los<br />procesos logísticos.
+                <p className="text-about">Una innovadora solución diseñada para combatir el fraude en los<br />procesos logísticos.
                     Incorporando tecnologías de vanguardia como<br /><span>blockchain</span> y <span>reconocimiento facial.</span></p>
             </div>
            
@@ -27,7 +27,7 @@ const About = () => (
             </div>
             <div className="box">
                 <h1>¿Cómo funciona?</h1>
-                <p className="text-wrapper">
+                <p className="text-about">
                     TruthTrace se basa en la tecnología blockchain para garantizar<br />
                     la integridad de los datos y la transparencia en los procesos logísticos.<br /><br />
                     El reconocimiento facial se utiliza para verificar la identidad de los<br />
