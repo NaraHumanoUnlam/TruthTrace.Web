@@ -11,8 +11,13 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  --background-color: white;
+  --text-color: black;
 }
-
+.dark-mode {
+  --background-color: #121212;
+  --text-color: #e0e0e0;
+}
 body, html {
   margin: 0;
   padding: 0;

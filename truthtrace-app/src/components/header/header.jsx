@@ -21,9 +21,9 @@ const Header = ({ src }) => {
                     </svg>
                 </button>
                 <ul className={`header__menu ${menuOpen ? 'open' : ''}`}>
-                    <li className="header__menu-item"><a href='#home'>Home</a></li>
-                    <li className="header__menu-item"><a href='#about'>Sobre nosotros</a></li>
-                    <li className="header__menu-item"><a href='#valores'>Valores</a></li>
+                    <li className="header__menu-item"><Link to='/'>Home</Link></li>
+                    <li className="header__menu-item"><a href='/TruthTrace.Web/#about'>Sobre nosotros</a></li>
+                    <li className="header__menu-item"><a href='/TruthTrace.Web/#valores'>Valores</a></li>
                     <li><Link to="/Login" className='button-actionheader'>Ingresar</Link></li>
                 </ul>
             </nav>
