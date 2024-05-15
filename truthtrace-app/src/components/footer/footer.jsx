@@ -22,7 +22,7 @@ const Footer = ({ src }) => (
           <p className="footer-title">Legales</p>
           <ul className="footer-list">
             <li className="footer-item"><a href="#" className="footer-link">Terminos y condiciones</a></li>
-            <li className="footer-item"><a href="#" className="footer-link">Privacidad</a></li>
+            <li className="footer-item"><Link to="/privacidad" className='footer-link'>Privacidad</Link></li>
           </ul>
         </div>
         <div className="footer-section">
