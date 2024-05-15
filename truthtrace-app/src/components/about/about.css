@@ -26,12 +26,6 @@
     font-family: 'Roboto Condensed';
     font-weight: 500;
   }
-
-  .background p {
-    text-align: left;
-    font-weight: 200;
-  }
-  
   .box {
     width: 40%;
     margin: auto;
@@ -65,6 +59,8 @@
   font-size: 1.4em;
   font-style: light;
   font-weight: 300;
+  text-align: left;
+  font-weight: 200;
 }
 
 @media screen and (max-width: 950px) {
@@ -74,7 +70,26 @@
     flex-direction: column-reverse;
   }
 
+  .portada{
+    align-items: center;
+    justify-content: center;
+  }
+
   .box{
+    width: 50%;
     text-align: center;
+  }
+
+  .text-about{
+    text-align: center;
+  }
+
+  .background h1 {
+    text-align: center;
+  }
+
+  .img {
+    width: 425px;
+    height: 225px;
   }
 }

@@ -33,8 +33,8 @@
   }
   
   @media (min-width: 1024px) {
-    .footer-logo {
-      font-size: 2rem;
+    .footer-logo img{
+      display: inline;
     }
   }
   

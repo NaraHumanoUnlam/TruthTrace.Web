@@ -54,4 +54,12 @@
   .cards-home {
     grid-template-columns: 1fr;
   }
+
+  .label h1{
+    font-size: 3.5em;
+  }
+
+  .label h2{
+    font-size: 1.5em;
+  }
 }
