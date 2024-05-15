@@ -1,0 +1,34 @@
+.container-faq {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+}
+.faq-section {
+    margin-bottom: 20px;
+}
+.faq-question {
+    font-weight: bold;
+}
+.faq-answer {
+    margin-top: 5px;
+}
+.faq-answer ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.container-faq h1 {
+    font-size: 2em;
+    color: #6840E6;
+    font-family: 'roboto';
+    font-weight: 200;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+@media (max-width: 768px) {
+        .header__menu {
+            top: 100px!important;
+        }
+}

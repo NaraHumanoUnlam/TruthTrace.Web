@@ -119,17 +119,20 @@
 @media (max-width: 768px) 
 { 
     .main 
-    { 
-        padding-left: 70px;
+    { padding: 0px;
         display: flex;
         flex-direction: column;
+        text-align: center;
+        flex-wrap: wrap;
+        align-content: stretch;
+        justify-content: space-evenly;
+        align-items: center;
     }
 
     .hero 
     { 
         flex-direction: column; 
         height: 100%;
-        width: 100%;
     }
 
     .img-portada 
