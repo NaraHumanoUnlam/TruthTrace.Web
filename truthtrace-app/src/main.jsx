@@ -17,6 +17,7 @@ import FAQ from "./components/FAQ/faq";
 import Help from "./components/help/help";
 import Terms from "./components/terms/term";
 import Principles from "./components/principles/principles";
+import Privacy from "./components/privacy/privacy";
 
 const router = createBrowserRouter([
   {
@@ -67,11 +68,15 @@ const router = createBrowserRouter([
     element: <Help src={src}/>,
     errorElement: <Error404 />,
   },
-  {
-    path: "/terms",
+  { path: "/terms",
     element: <Terms src={src}/>,
     errorElement: <Error404 />,
-  }, ]);
+  }, {
+    path: "/privacidad",
+    element: <Privacy src={src}/>,
+    errorElement: <Error404 />,
+  }
+]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
