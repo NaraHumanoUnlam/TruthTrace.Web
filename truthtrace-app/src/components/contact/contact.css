@@ -107,6 +107,7 @@
     overflow: hidden;
     line-height: 0;
     transform: rotate(180deg);
+    margin-bottom: -2%;
 }
 
 .custom-contact-shapes svg {
