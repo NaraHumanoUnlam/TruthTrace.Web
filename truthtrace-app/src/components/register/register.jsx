@@ -14,7 +14,6 @@ const Register = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        // Add your registration logic here
     };
 
     return (

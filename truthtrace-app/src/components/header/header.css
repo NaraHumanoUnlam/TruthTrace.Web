@@ -99,3 +99,45 @@
 .header.scrolled {
     background-color: #6840E6; /* Cambia el color de fondo al hacer sticky */
 }
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+    padding: 10px;
+}
+
+@media (max-width: 768px) {
+  .hamburger {
+      display: block;
+      color:#6840E6;
+      margin: 2em;
+  }
+
+  .header__menu {
+      display: none;
+      flex-direction: column;
+      width: 100%;
+      position: absolute;
+      top: 125px;
+      left: 0;
+      background-color: white;
+      border-top: 1px solid #ccc;
+      padding-top: 10% ;
+  }
+
+  .header__menu.open {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: flex-start;
+  }
+
+  .header__menu-item a {
+      padding: 15px;
+  }
+
+  .button-actionheader {
+    margin: 1em;
+  }
+}

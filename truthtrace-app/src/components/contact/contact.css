@@ -121,3 +121,30 @@
 .custom-contact-shapes .shape-fill {
     fill: #fdfdfd;
 }
+
+@media (max-width: 768px) {
+    .text-wrapper {
+        font-size: 16px;
+    }
+
+    input[type="email"], input[type="text"] {
+        width: calc(100% - 10px);
+    }
+
+    .btn {
+        padding: 10px 15px;
+    }
+
+    .custom-contact-shapes svg {
+        height: 100px;
+    }
+
+    .contact {
+        width: 100%;
+    }
+
+    .custom-contact-shapes {
+        margin-bottom: -60px;
+    }
+    
+}

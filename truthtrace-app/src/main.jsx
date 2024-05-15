@@ -11,7 +11,10 @@ import Validar from "./routes/validar_rol";
 import Login from "./components/login/login";
 import Register from "./components/register/register";
 import logo from './assets/images/logo.svg';
+import src from './assets/images/logo-horizontal.png';
 import Error404 from "./routes/errors/Error404";
+import FAQ from "./components/FAQ/faq";
+import Help from "./components/help/help";
 
 const router = createBrowserRouter([
   {
@@ -51,6 +54,15 @@ const router = createBrowserRouter([
   },{
     path: "/register",
     element: <Register />,
+    errorElement: <Error404 />,
+  },{
+    path: "/faq",
+    element: <FAQ logo={src}/>,
+    errorElement: <Error404 />,
+  },
+  {
+    path: "/help",
+    element: <Help src={src}/>,
     errorElement: <Error404 />,
   }, ]);
 
