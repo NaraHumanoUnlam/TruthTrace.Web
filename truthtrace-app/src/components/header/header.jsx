@@ -12,7 +12,7 @@ const Header = ({ src }) => {
     return (
         <header className='header'>
             <nav className='menu'>
-                <a href='#home' className="header__logo"><img src={src} alt="logo" /></a>
+            <Link to='/' className="header__logo"><img src={src} alt="logo" /></Link>
                 <button className="hamburger" onClick={toggleMenu}>
                     <svg viewBox="0 0 100 80" width="30" height="30">
                         <rect width="100" height="20" fill='#6840E6'></rect>
@@ -21,10 +21,10 @@ const Header = ({ src }) => {
                     </svg>
                 </button>
                 <ul className={`header__menu ${menuOpen ? 'open' : ''}`}>
-                    <li className="header__menu-item"><a href='#home'>Home</a></li>
-                    <li className="header__menu-item"><a href='#about'>Sobre nosotros</a></li>
-                    <li className="header__menu-item"><a href='#valores'>Valores</a></li>
-                    <li><Link to="/TruthTrace.Web/login" className='button-actionheader'>Ingresar</Link></li>
+                    <li className="header__menu-item"><Link to='/'>Home</Link></li>
+                    <li className="header__menu-item"><a href='/TruthTrace.Web/#about'>Sobre nosotros</a></li>
+                    <li className="header__menu-item"><a href='/TruthTrace.Web/#valores'>Valores</a></li>
+                    <li><Link to="/Login" className='button-actionheader'>Ingresar</Link></li>
                 </ul>
             </nav>
         </header>

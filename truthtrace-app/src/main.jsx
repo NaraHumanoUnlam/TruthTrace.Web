@@ -15,6 +15,8 @@ import src from './assets/images/logo-horizontal.png';
 import Error404 from "./routes/errors/Error404";
 import FAQ from "./components/FAQ/faq";
 import Help from "./components/help/help";
+import Terms from "./components/terms/term";
+import Principles from "./components/principles/principles";
 import Privacy from "./components/privacy/privacy";
 
 const router = createBrowserRouter([
