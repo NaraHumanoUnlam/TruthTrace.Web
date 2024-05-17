@@ -1,0 +1,105 @@
+#root{
+    height: 100%
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    height: 100%;
+    width: 50%;
+}
+
+.container h1{
+    margin: 0.3em;
+}
+
+.container h2{
+    font-weight: 300;
+}
+
+.desing {
+    width: 50%;
+}
+
+.empresa form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 50%;
+}
+
+.empresa input {
+    border: #6840E6 solid 2px;
+    height: 30px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.empresa input[type="submit"] {
+    background-color: #6840E6;
+    color: white;
+    font-weight: 600;
+    border: none;
+    display: inline-block;
+    font-size: 16px;
+    height: 50px;
+    margin-top: 5%;
+    transition: 250ms ease-in-out;
+}
+
+.empresa input[type="submit"]:hover{
+    transform: scale(1.05);
+    transition-timing-function: linear;
+}
+
+.form_group{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+.form_login input{
+    background-color: white;
+    color:#242424;
+    font-size: 1em;
+}
+
+.options_login{
+    margin-top: 5%;
+    font-weight: 400;
+    text-decoration: none;
+    color:#6840E6;
+}
+
+.forgot_pass{
+    color:#40B6E6;
+    transition: 250ms ease-in-out;
+}
+
+.forgot_pass:hover{
+    font-size: 1.1em;
+    transition-timing-function: linear;
+    color:#6840E6;
+}
+
+
+.register a{
+    font-weight: 600;
+    color: #6840E6;
+    transition: 250ms ease-in-out;
+}
+
+.register a:hover{
+    font-size: 1.1em;
+    transition-timing-function: linear;
+}
+
+.logo_login{
+    width: 60%;
+    display: inline;
+}
