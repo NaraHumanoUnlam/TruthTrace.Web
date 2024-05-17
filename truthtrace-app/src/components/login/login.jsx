@@ -6,6 +6,12 @@ import AlternateSignin from '../alternateSignin/alternateSignin';
 import './login.css';
 
 const Login = ({ clase }) => {
+  const [username, setUsername] = useState('');
+  const [password, setPassword] = useState('');
+
+  const handleLogin = async () => {
+    await signIn(username, password);
+  };
   const logoSrc = clase === 'empresa' ? empresaLogo : usuarioLogo;
   const img = clase === 'empresa' ? empresaImg : empresaImg;
   return (

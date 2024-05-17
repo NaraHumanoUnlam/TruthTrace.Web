@@ -18,6 +18,7 @@ import Help from "./components/help/help";
 import Terms from "./components/terms/term";
 import Principles from "./components/principles/principles";
 import Privacy from "./components/privacy/privacy";
+import awsExports from './aws-exports';
 
 const router = createBrowserRouter([
   {
