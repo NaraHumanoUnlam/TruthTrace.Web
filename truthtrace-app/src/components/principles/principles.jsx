@@ -6,7 +6,7 @@ import { IoIosPeople } from "react-icons/io";
 import { PiShieldCheckFill } from "react-icons/pi";
 
 const Principles = () => (
-    <div className="principles" id='valores'>
+    <div className="principles" id="valores">
         <div className="label">
                 <h1>Nos preocupamos por tu <span>seguridad</span></h1>
                 <h2>En TruthTrace nos dedicamos a proporcionar soluciones que brinden <br/> 
