@@ -81,6 +81,8 @@
 
 .form_login input{
     background-color: white;
+    color:#242424;
+    font-size: 1em;
 }
 
 .options_login{

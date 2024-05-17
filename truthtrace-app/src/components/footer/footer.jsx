@@ -13,8 +13,8 @@ const Footer = ({ src }) => (
         <div className="footer-section">
           <p className="footer-title">Enlaces</p>
           <ul className="footer-list">
-            <li className="footer-item"><Link to="/faq" className='footer-link'>FAQ</Link></li>
-            <li className="footer-item"><Link to="/help" className='footer-link'>Ayuda</Link></li>
+            <li className="footer-item"><Link to="/TruthTrace.Web/faq" className='footer-link'>FAQ</Link></li>
+            <li className="footer-item"><Link to="/TruthTrace.Web/help" className='footer-link'>Ayuda</Link></li>
             <li className="footer-item"><a href="#" className="footer-link">Soporte</a></li>
           </ul>
         </div>
@@ -22,7 +22,7 @@ const Footer = ({ src }) => (
           <p className="footer-title">Legales</p>
           <ul className="footer-list">
             <li className="footer-item"><a href="#" className="footer-link">Terminos y condiciones</a></li>
-            <li className="footer-item"><Link to="/privacidad" className='footer-link'>Privacidad</Link></li>
+            <li className="footer-item"><Link to="/TruthTrace.Web/privacidad" className='footer-link'>Privacidad</Link></li>
           </ul>
         </div>
         <div className="footer-section">

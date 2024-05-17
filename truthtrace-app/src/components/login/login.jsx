@@ -33,7 +33,7 @@ const Login = ({ clase }) => {
       </form>
       <div className='options_login'>
         <a href="#" className='forgot_pass'>Olvide mi contraseña</a>
-        <p className='register'>¿No tienes una cuenta? <a href='/register'>Regístrate</a> </p>
+        <p className='register'>¿No tienes una cuenta? <a href='/TruthTrace.Web/register'>Regístrate</a> </p>
       </div>
       <h2>O conectate con</h2>
       <AlternateSignin></AlternateSignin>
