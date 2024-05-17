@@ -24,7 +24,7 @@ const Header = ({ src }) => {
                     <li className="header__menu-item"><Link to='/'>Home</Link></li>
                     <li className="header__menu-item"><a href='/TruthTrace.Web/#about'>Sobre nosotros</a></li>
                     <li className="header__menu-item"><a href='/TruthTrace.Web/#valores'>Valores</a></li>
-                    <li><Link to="/Login" className='button-actionheader'>Ingresar</Link></li>
+                    <li><Link to="/TruthTrace.Web/login" className='button-actionheader'>Ingresar</Link></li>
                 </ul>
             </nav>
         </header>
