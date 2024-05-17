@@ -41,38 +41,35 @@ const router = createBrowserRouter([
     errorElement: <Error404 />,
   },
   {
-    path: "/login",
+    path: "/TruthTrace.Web/login",
     element: <Validar src={logo}/>,
     errorElement: <Error404 />,
   },
   {
-    path: "/login/empresa",
+    path: "/TruthTrace.Web/login/empresa",
     element: <Login clase='empresa' />,
     errorElement: <Error404 />,
   },
   {
-    path: "/login/transportista",
+    path: "/TruthTrace.Web/login/transportista",
     element: <Login clase='usuario' />,
     errorElement: <Error404 />,
   },{
-    path: "/register",
+    path: "/TruthTrace.Web/register",
     element: <Register />,
     errorElement: <Error404 />,
   },{
-    path: "/faq",
+    path: "/TruthTrace.Web/faq",
     element: <FAQ logo={src}/>,
     errorElement: <Error404 />,
   },
   {
-    path: "/help",
+    path: "/TruthTrace.Web/help",
     element: <Help src={src}/>,
     errorElement: <Error404 />,
   },
-  { path: "/terms",
-    element: <Terms src={src}/>,
-    errorElement: <Error404 />,
-  }, {
-    path: "/privacidad",
+  {
+    path: "/TruthTrace.Web/privacidad",
     element: <Privacy src={src}/>,
     errorElement: <Error404 />,
   }

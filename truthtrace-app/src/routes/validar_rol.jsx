@@ -11,8 +11,8 @@ const Validar = ( {src} ) => (
       </a>
       <h1>Bienvenido</h1>
       <h2>¿Cuál es tu rol?</h2>
-      <Link to="/login/empresa" className='button-empresa'>Empresa</Link>
-      <Link to="/login/transportista" className='button-usuario'>Transportista</Link>
+      <Link to="/TruthTrace.Web/login/empresa" className='button-empresa'>Empresa</Link>
+      <Link to="/TruthTrace.Web/login/transportista" className='button-usuario'>Transportista</Link>
     </div>
   </div>
 );
