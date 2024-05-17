@@ -1,5 +1,5 @@
 import React from 'react';
-import img from '../../assets/images/undraw_team_collaboration_re_ow29.svg';
+import img from '../../assets/images/truthtrace-hero.svg';
 import { Link } from "react-router-dom";
 import './hero.css';
 

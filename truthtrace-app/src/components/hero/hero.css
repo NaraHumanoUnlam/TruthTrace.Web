@@ -26,7 +26,7 @@
 
 .hero {
     padding: 40px 10px 80px 10px;
-    background-color:#6840E6;
+    background-color: #404FE6;
     display: flex;
     flex-direction: row;
     text-align: left;
@@ -127,11 +127,12 @@
         align-content: stretch;
         justify-content: space-evenly;
         align-items: center;
+        padding-bottom: 4em;
     }
 
     .hero 
     { 
-        flex-direction: column; 
+        flex-direction: column-reverse; 
         height: 100%;
     }
 
