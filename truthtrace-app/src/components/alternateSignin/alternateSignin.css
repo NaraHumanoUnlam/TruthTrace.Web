@@ -1,0 +1,33 @@
+.alternate_signin{
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
+
+.alternate_signin_card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3.5em;
+    height: 3.5em;
+    border-radius: 5px;
+    background: #ffffff;
+    box-shadow:  7px 7px 15px #e6e6e6,
+                -7px -7px 15px #ffffff;
+    padding: 0px;
+    transition: 250ms ease-in-out;
+}
+
+.alternate_signin_card:hover{
+    transform: scale(1.1);
+    transition-timing-function: linear;
+}
+
+.alternate_signin_card svg{
+    font-size: 1.7em;
+}
+
+.alternate_signin_card img{
+    width: 1.5em;
+    height: 1.5em;
+}
