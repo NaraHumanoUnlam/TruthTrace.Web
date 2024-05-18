@@ -12,6 +12,12 @@ const Login = ({ clase }) => {
   const handleLogin = async () => {
     await signIn(username, password);
   };*/
+  const url = '';
+
+  const recuperarContrasena = ( {email} ) => {
+    return (url + '/users/resetPassword/' + email);
+  }
+
   const logoSrc = clase === 'empresa' ? empresaLogo : usuarioLogo;
   const img = clase === 'empresa' ? empresaImg : empresaImg;
   return (
