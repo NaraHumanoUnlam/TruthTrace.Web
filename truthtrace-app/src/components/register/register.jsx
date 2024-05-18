@@ -1,13 +1,11 @@
 import React, { useState } from 'react';
 import { FaEye, FaEyeSlash } from 'react-icons/fa';
-import { Amplify } from 'aws-amplify';
-import awsExports from '../../aws-exports.js';
+//import { createUserWithEmailAndPassword } from 'firebase/auth';
+//import { auth } from '../../firebaseConfig.js';
 import empresaLogo from '../../assets/images/empresa/logo.svg';
 import usuarioLogo from '../../assets/images/usuario/logo.svg';
 import empresaImg from '../../assets/images/people_collection.svg';
 import './register.css';
-
-Amplify.configure(awsExports);
 
 const Register = ({ clase }) => {
   const [username, setUsername] = useState('');
@@ -33,13 +31,7 @@ const Register = ({ clase }) => {
     }
 
     try {
-      await Auth.signUp({
-        username,
-        password,
-        attributes: {
-          email: username, // Asegúrate de que el email sea el nombre de usuario
-        },
-      });
+      //await createUserWithEmailAndPassword(auth, username, password);
       setSuccess('Registro exitoso. Por favor, verifica tu correo electrónico.');
       setError('');
     } catch (error) {
