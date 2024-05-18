@@ -19,6 +19,7 @@ import Terms from "./components/terms/term";
 import Principles from "./components/principles/principles";
 import Privacy from "./components/privacy/privacy";
 import awsExports from './aws-exports';
+import EnterpriseValidation from "./components/identity_validation/enterprise_validation";
 
 const router = createBrowserRouter([
   {
@@ -72,6 +73,11 @@ const router = createBrowserRouter([
   {
     path: "/TruthTrace.Web/privacidad",
     element: <Privacy src={src}/>,
+    errorElement: <Error404 />,
+  },
+  {
+    path: "/TruthTrace.Web/enterprise",
+    element: <EnterpriseValidation />,
     errorElement: <Error404 />,
   }
 ]);

@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-cognitott-dev-f3d60-authRole",
+      "UnauthRoleArn": "arn:aws:iam::610708609528:role/amplify-cognitott-dev-f3d60-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::610708609528:role/amplify-cognitott-dev-f3d60-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-cognitott-dev-f3d60-deployment",
+      "UnauthRoleName": "amplify-cognitott-dev-f3d60-unauthRole",
+      "StackName": "amplify-cognitott-dev-f3d60",
+      "StackId": "arn:aws:cloudformation:us-east-1:610708609528:stack/amplify-cognitott-dev-f3d60/c2773fe0-1540-11ef-a649-0e111dc10417",
+      "AmplifyAppId": "d1uf1eiujt8unx"
+    }
+  }
+}

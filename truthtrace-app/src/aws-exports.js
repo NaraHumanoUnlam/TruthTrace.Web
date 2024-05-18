@@ -1,10 +1,8 @@
 const awsExports = {
-    "aws_project_region": "us-west-2",
-    "aws_cognito_identity_pool_id": "us-west-2:example-id",
-    "aws_cognito_region": "us-west-2",
-    "aws_user_pools_id": "us-west-2_example",
-    "aws_user_pools_web_client_id": "exampleclientid",
-    // Otros servicios configurados
+    aws_project_region: "us-east-1",
+    aws_cognito_identity_pool_id: "https://cognito-idp.us-east-1.amazonaws.com/us-east-1_cw6POTPYh",
+    aws_cognito_region: "us-east-1",
+    aws_user_pools_id: "us-east-1_cw6POTPYh"
 };
-
+  
 export default awsExports;
