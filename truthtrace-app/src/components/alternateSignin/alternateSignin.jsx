@@ -13,8 +13,7 @@ const AlternateSignin = () => {
     firebase.HandleGoogleSignin();
   };
   const handleMicrosoftSignin = () => {
-    console.log('Microsoft Signin');
-    //navigate('/auth/microsoft');
+    firebase.handleMicrosoftSignin();
   };
 
   return (
