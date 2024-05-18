@@ -6,12 +6,12 @@ import AlternateSignin from '../alternateSignin/alternateSignin';
 import './login.css';
 
 const Login = ({ clase }) => {
-  const [username, setUsername] = useState('');
+  /*const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
 
   const handleLogin = async () => {
     await signIn(username, password);
-  };
+  };*/
   const logoSrc = clase === 'empresa' ? empresaLogo : usuarioLogo;
   const img = clase === 'empresa' ? empresaImg : empresaImg;
   return (
@@ -39,7 +39,7 @@ const Login = ({ clase }) => {
       </form>
       <div className='options_login'>
         <a href="#" className='forgot_pass'>Olvide mi contraseña</a>
-        <p className='register'>¿No tienes una cuenta? <a href='/TruthTrace.Web/register'>Regístrate</a> </p>
+        <p className='register'>¿No tienes una cuenta? <a href='/TruthTrace.Web/enterprise'>Regístrate</a> </p>
       </div>
       <h2>O conectate con</h2>
       <AlternateSignin></AlternateSignin>

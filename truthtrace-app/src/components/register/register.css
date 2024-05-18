@@ -99,7 +99,8 @@
     transition-timing-function: linear;
 }
 
-.logo_login{
+.logo_login {
     width: 60%;
     display: inline;
+    padding-left: 10px;
 }
