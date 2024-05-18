@@ -14,10 +14,11 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 const auth = getAuth();
 const providerGoogle = new GoogleAuthProvider();
-const providerMicrosoft = new OAuthProvider('microsoft.com');
+const providerMicrosoft = new OAuthProvider('outlook.com');
+
 
 const HandleGoogleSignin =() => {
-  signInWithPopup(auth, provider)
+  signInWithPopup(auth, providerGoogle)
     .then((result) => {
       const credential = GoogleAuthProvider.credentialFromResult(result);
       const token = credential.accessToken;
