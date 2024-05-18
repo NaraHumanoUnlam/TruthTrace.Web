@@ -21,9 +21,9 @@ const AlternateSignin = () => {
       <button className='alternate_signin_card' onClick={handleGoogleSignin}>
         <FcGoogle />
       </button>
-      <button className='alternate_signin_card' onClick={handleMicrosoftSignin}>
+      {/*<button className='alternate_signin_card' onClick={handleMicrosoftSignin}>
         <img src={microsoftImg} alt="Microsoft Signin" />
-      </button>
+  </button>*/}
     </div>
   );
 };
