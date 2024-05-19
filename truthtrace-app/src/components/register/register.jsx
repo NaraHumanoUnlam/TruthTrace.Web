@@ -1,7 +1,5 @@
 import React, { useState } from 'react';
 import { FaEye, FaEyeSlash } from 'react-icons/fa';
-//import { createUserWithEmailAndPassword } from 'firebase/auth';
-//import { auth } from '../../firebaseConfig.js';
 import empresaLogo from '../../assets/images/empresa/logo.svg';
 import usuarioLogo from '../../assets/images/usuario/logo.svg';
 import empresaImg from '../../assets/images/people_collection.svg';
@@ -31,7 +29,6 @@ const Register = ({ clase }) => {
     }
 
     try {
-      //await createUserWithEmailAndPassword(auth, username, password);
       setSuccess('Registro exitoso. Por favor, verifica tu correo electrónico.');
       setError('');
     } catch (error) {

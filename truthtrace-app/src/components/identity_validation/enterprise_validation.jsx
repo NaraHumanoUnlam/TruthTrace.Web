@@ -16,98 +16,105 @@ const EnterpriseValidation = () => {
   const [isValid, setIsValid] = useState(false);
   const navigate = useNavigate();
 
-  const handleSubmit = async (event) => {
-    event.preventDefault();
+  const handleValidation = async (url, value) => {
     try {
-      const response = await fetch('https://tu-api-endpoint.com/validar', {
-        method: 'POST',
+      const response = await fetch(url + value, {
+        method: 'GET',
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify({ razonSocial, cuit }),
       });
 
-      const result = await response.json();
-
-      if (result.valid) {
-        setValidationMessage('¡Datos validados!');
-        setIsValid(true);
-      } else {
-        setValidationMessage('Datos inválidos');
-        setIsValid(false);
+      if (!response.ok) {
+        throw new Error('No existe');
       }
+
+      return true;
     } catch (error) {
-      setValidationMessage('Error de validación');
+      return false;
+    }
+  };
+
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+    const baseUrl = 'http://localhost:9191/api/v1/';
+
+    const cuitValid = await handleValidation(baseUrl + 'validate/', cuit);
+    const razonSocialValid = await handleValidation(baseUrl + 'socialreason/', razonSocial);
+
+    if (cuitValid && razonSocialValid) {
+      setValidationMessage('¡Datos validados!');
+      setIsValid(true);
+    } else {
+      setValidationMessage('Datos inválidos');
       setIsValid(false);
     }
 
-    setValidationMessage('¡Datos validados!');
-    setIsValid(true);
     setOpen(true);
   };
 
   const handleClose = () => {
     setOpen(false);
     if (isValid) {
-        navigate('/TruthTrace.Web/register');
-      }  
+      navigate('/TruthTrace.Web/register');
+    }
   };
 
   return (
     <div className='empresa'>
-        <div className='container'>
-            <a href='/#home'>
-              <img src={empresaLogo} alt="logo" className='logo_login'/>
-            </a>
-            <form onSubmit={handleSubmit} className='form_login'>
-            <div className='form_group'>
+      <div className='container'>
+        <a href='/#home'>
+          <img src={empresaLogo} alt="logo" className='logo_login'/>
+        </a>
+        <form onSubmit={handleSubmit} className='form_login'>
+          <div className='form_group'>
             <label>Razón Social:</label>
-                <input
-                type="text"
-                value={razonSocial}
-                onChange={(e) => setRazonSocial(e.target.value)}
-                required
-                />
-            </div>
-            <div className='form_group'>
+            <input
+              type="text"
+              value={razonSocial}
+              onChange={(e) => setRazonSocial(e.target.value)}
+              required
+            />
+          </div>
+          <div className='form_group'>
             <label>CUIT:</label>
-                <input
-                type="text"
-                value={cuit}
-                onChange={(e) => setCuit(e.target.value)}
-                required
-                />
+            <input
+              type="text"
+              value={cuit}
+              onChange={(e) => setCuit(e.target.value)}
+              required
+            />
+          </div>
+          <div className="form_group">
+            <input type="submit" value="Validar"/>
+          </div>
+        </form>
+
+        <Dialog open={open} onClose={handleClose}>
+          <DialogContent>
+            <div style={{ textAlign: 'center', marginTop: 20 }}>
+              {isValid ? (
+                <FaCheckCircle size={50} color="green" />
+              ) : (
+                <FaRegCircleXmark size={50} color="red" />
+              )}
             </div>
-            <div className="form_group">
-                <input type="submit" value="Validar"/>
-            </div>
-            </form>
-            
-            <Dialog open={open} onClose={handleClose}>
-            <DialogContent>
-                <div style={{ textAlign: 'center', marginTop: 20 }}>
-                {isValid ? (
-                    <FaCheckCircle size={50} color="green" />
-                ) : (
-                    <FaRegCircleXmark size={50} color="red" />
-                )}
-                </div>
-                <DialogContentText>
-                {validationMessage}
-                </DialogContentText>
-            </DialogContent>
-            <DialogActions>
-                <Button onClick={handleClose} color="primary" className='button'>
-                {isValid ? 'Continuar' : 'Cerrar'}
-                </Button>
-            </DialogActions>
-            </Dialog>
-        </div>
-        <div className='desing'>
-            <img src={empresaImg} alt="logo" />
-        </div>
+            <DialogContentText>
+              {validationMessage}
+            </DialogContentText>
+          </DialogContent>
+          <DialogActions>
+            <Button onClick={handleClose} color="primary" className='button'>
+              {isValid ? 'Continuar' : 'Cerrar'}
+            </Button>
+          </DialogActions>
+        </Dialog>
+      </div>
+      <div className='desing'>
+        <img src={empresaImg} alt="logo" />
+      </div>
     </div>
   );
-}
+};
 
 export default EnterpriseValidation;
