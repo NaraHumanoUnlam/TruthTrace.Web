@@ -37,7 +37,7 @@ const EnterpriseValidation = () => {
 
   const handleSubmit = async (event) => {
     event.preventDefault();
-    const baseUrl = 'http://localhost:9191/api/v1/';
+    const baseUrl = 'http://localhost:9191/api/v1/companies/';
 
     const cuitValid = await handleValidation(baseUrl + 'validate/', cuit);
     const razonSocialValid = await handleValidation(baseUrl + 'socialreason/', razonSocial);
@@ -79,9 +79,14 @@ const EnterpriseValidation = () => {
           <div className='form_group'>
             <label>CUIT:</label>
             <input
-              type="text"
+              type="number"
               value={cuit}
-              onChange={(e) => setCuit(e.target.value)}
+              onChange={(e) => {
+                const value = e.target.value;
+                if (/^\d*$/.test(value)) {
+                    setCuit(value);
+                 }
+               }}
               required
             />
           </div>
